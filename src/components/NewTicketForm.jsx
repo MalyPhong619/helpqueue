@@ -8,7 +8,6 @@ function NewTicketForm(props){
   let _location = null;
   let _issue = null;
 
-  console.log(props);
 
 
   function handleNewTicketFormSubmission(event) {
