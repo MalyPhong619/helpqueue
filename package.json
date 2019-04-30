@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest; exit 0",
     "lint": "eslint src/** src/**/**; exit 0",
     "lint-fix": "eslint src/** src/**/** --fix; exit 0",
     "start": "webpack-dev-server --open"
@@ -16,7 +16,9 @@
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-redux": "^5.0.6",
     "react-router-dom": "^4.0.0",
+    "redux": "^3.7.2",
     "styled-jsx": "^3.2.1",
     "uuid": "^3.2.1"
   },
